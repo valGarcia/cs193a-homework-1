@@ -7,10 +7,10 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 
 public class tictactoe extends AppCompatActivity {
-
-    private boolean[][] p1board = new boolean[3][3];
-    private boolean[][] p2board = new boolean[3][3];
-    private boolean[][] board = new boolean[3][3];
+    private final int DIM = 3;
+    private boolean[][] p1board = new boolean[DIM][DIM];
+    private boolean[][] p2board = new boolean[DIM][DIM];
+    private boolean[][] board = new boolean[DIM][DIM];
     private int player = 1;
 
     @Override
