@@ -16,7 +16,7 @@ public class tictactoe extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tictactoer);
+        setContentView(R.layout.activity_tictactoe);
     }
 
     public void userClick(View view) {
